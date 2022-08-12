@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COMMON STYLES */
+.each-section {
+  border-top: 16px solid #f2f4f6;
+  padding-top: 30px;
+}
+
+/* NAVBAR STARTS .. */
+.navbar {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  background: transparent;
+  color: #fff;
+  font-weight: bold;
+}
+.navbar-collapse {
+  flex-grow: unset;
+}
+.navbar .container-fluid {
+  justify-content: center;
+}
+.nav-item .nav-link {
+  color: #fff;
+}
+/* NAVBAR ENDS .. */
+
+/* BANNER CAROUSEL STARTS .. */
+.carousel-item img {
+  width: 100%;
+  height: 80vh;
+}
+.banner-carousel {
+  position: relative;
+}
+.carousel-caption {
+  top: 45%;
+}
+/*BANNER CAROUSEL ENDS .. */
+
+/* CATEGORY CAROUSEL */
+.category-section {
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+  z-index: 1;
+  /* background: #fff; */
+}
+.category-section .container {
+  box-shadow: 0 8px 26px 0 rgb(0 0 0 / 8%);
+  border-radius: 4px;
+  padding: 40px 20px;
+  background-color: #fff;
+}
+.slick-item {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: red;
+}
+
+/* OFFER SECTION STARTS .. */
+.offer-section {
+  margin-top: 140px;
+  margin-bottom: 30px;
+}
+.offer-div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.offer-div img {
+  width: 100%;
+}
+/* OFFER SECTION ENDS .. */
+
+/*APPLIANCE SECTION STARTS .. */
+.appliance-section h3 {
+  text-align: center;
+}
+.appliance {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: gray;
+  margin: 15px;
+}
+/*APPLIANCE SECTION ENDS .. */
+
+/* CLEANING SECTION STARTS .. */
+.cleaning {
+  padding: 10px;
+}
+.cleaning img {
+  width: 100%;
+}
+.cleaning p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+/*CLEANING SECTION ENDS .. */
+
+/* FOOTER SECTION STARTS .. */
+#footer {
+  margin-top: 30px;
+}
+
+.bg-footer {
+  background-color: #232323;
+}
+.footer-color {
+  color: #fff !important;
+}
+.footer-link {
+  color: #acacac !important;
+  -webkit-transition: all 0.3s ease;
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: #fff !important;
+}
+.copy-bg {
+  background-color: #101010;
+}
+.fa-brands {
+  color: #e1bd85;
+}
+.fa-paper-plane {
+  color: #e1bd85;
+}
+/* FOOTER SECTION ENDS */
